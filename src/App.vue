@@ -1,15 +1,17 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Contador />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Contador from "./components/Contador.vue"
+//import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+  components:{Contador},
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  // components: {
+  //   HelloWorld
+  // }
 }
 </script>
 
